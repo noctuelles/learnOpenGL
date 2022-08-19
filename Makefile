@@ -6,7 +6,7 @@
 #    By: plouvel <plouvel@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/08/19 17:30:35 by plouvel           #+#    #+#              #
-#    Updated: 2022/08/19 18:32:32 by plouvel          ###   ########.fr        #
+#    Updated: 2022/08/19 19:30:42 by plouvel          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,6 +19,7 @@ SRCS_DIR	=	srcs
 GLFW_DIR	=	glfw
 
 SRCS		=	glad.c	\
+				learngl.c	\
 				main.c	\
 
 OBJS		=	$(addprefix $(OBJS_DIR)/, $(SRCS:.c=.o))
